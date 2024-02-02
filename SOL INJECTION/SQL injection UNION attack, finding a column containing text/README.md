@@ -14,3 +14,4 @@ Added "UNION NULL" to the request to determine the number of columns used in the
 ```sql
 SELECT * FROM someTable WHERE category = '<CATEGORY>' ' UNION SELECT NULL,NULL,NULL--
 ```
+This did not throws an internal server error. It means that there are 3 columns that is being retreived in the query.
