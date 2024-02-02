@@ -9,6 +9,7 @@ Query made -
 ```sql
 SELECT * FROM someTable WHERE category = '<CATEGORY>'
 ```
+Added "UNION NULL" to the request to determine the number of columns used in the query.
 
 ```sql
 SELECT * FROM someTable WHERE category = '<CATEGORY>' ' UNION SELECT NULL,NULL,NULL--
