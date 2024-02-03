@@ -27,7 +27,7 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' ' UNION SELECT NULL,NULL#
 **1st column**
 
 ```sql
-SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT 'Ananthan',NULL --
+SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT 'Ananthan',NULL #
 ```
 This column contains text data .
 
