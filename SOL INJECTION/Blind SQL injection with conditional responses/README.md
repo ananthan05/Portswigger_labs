@@ -87,7 +87,7 @@ SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>' AND (SELECT
 
 ![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/1eb1d632-3ab2-4d73-b790-7c106fe6aadd)
 
-#### Fining the  20 character length password by Brute force -
+#### Finding the  20 character length password by Brute force -
 
 
 ```sql
