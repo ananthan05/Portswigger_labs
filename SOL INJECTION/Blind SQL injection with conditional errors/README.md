@@ -9,7 +9,7 @@ Query made -
 ```sql
 SELECT TrackingId FROM TrackedUsers WHERE TrackingId = '<COOKIE-VALUE>'
 ```
-#### trying to find the error messages-
+#### trying to find the error messages--
 
 ```sql
 SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>''
