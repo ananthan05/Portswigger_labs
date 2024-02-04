@@ -107,13 +107,14 @@ SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>' AND (SELECT
 
 Now, we have received 20 different payloads that provide us with the 'Welcome back' option
 
+![Screenshot 2024-02-04 153346](https://github.com/ananthan05/Portswigger_labs/assets/140697378/bae24401-2cb9-48dd-8acc-5ffa58ba0e55)
 
+Araange the payload2 characters according to the payload1 numbers in the correct order .
 
+Password  = `uc5e5ot47gtajjumawrg`
 
+Successfully logged in administrator.
 
-
-
-
-
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/eb508fb6-0848-4c78-aeb2-a64df691d8e6)
 
 
