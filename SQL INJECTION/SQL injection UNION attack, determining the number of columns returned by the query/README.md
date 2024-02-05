@@ -6,7 +6,7 @@
 
 ![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/aaf3ff13-c33e-4af9-b39d-4acdd565dcb8)
 
-Query made - 
+Query made --
 
 ```sql
 SELECT * FROM someTable WHERE category = '<CATEGORY>'
