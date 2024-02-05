@@ -6,7 +6,7 @@
 
 ***Since it is either microsoft or MYQL database use # as comment***
 
-Query made - 
+Query made -- 
 
 ```sql
 SELECT * FROM someTable WHERE category = '<CATEGORY>'
