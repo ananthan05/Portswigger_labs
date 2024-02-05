@@ -5,7 +5,7 @@
 
 ## Solution :
 
-Query made - 
+Query made -- 
 
 ```sql
 SELECT TrackingId FROM TrackedUsers WHERE TrackingId = '<COOKIE-VALUE>'
