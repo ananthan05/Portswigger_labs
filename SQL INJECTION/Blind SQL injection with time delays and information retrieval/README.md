@@ -106,6 +106,20 @@ SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>''|| (SELECT 
 
 ![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/cb0dc217-0dd1-4346-b30c-32d38eb2dd19)
 
+ 20 charactor password and there Time delay is larger than 10.payload 1 represents the order and payload2 represents the each charactor password.
+ 
+![Screenshot 2024-02-06 023421](https://github.com/ananthan05/Portswigger_labs/assets/140697378/be25f0a5-4a1e-4c42-8a96-08ed4ce71d0f)
+
+Araange the payload2 characters according to the payload1 numbers in the correct order .
+
+Password  = `uzyksqlhkspbxvs9x9l1`
+
+Successfully logged in administrator.
+
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/ea93470e-b3d1-4274-8181-8ef6d6690962)
+
+
+
 
 
 
