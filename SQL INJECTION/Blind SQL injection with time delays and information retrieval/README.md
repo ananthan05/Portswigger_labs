@@ -80,6 +80,17 @@ SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>''|| (SELECT 
 
 ![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/dd630b58-8799-4026-88e8-d80c852a0f10)
 
+`After completing the attack go to coloum then click on response received`.
+
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/69105943-3741-46f4-8db4-c82c963c8d82)
+
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/1f46ac1b-5841-4e3c-b826-29df928c0ca5)
+
+From 20 onwards the Time delay is less than 10.So we can say that the length of the password is `20`
+
+#### finding the password--
+
+
 
 
 
