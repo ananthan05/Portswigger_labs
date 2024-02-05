@@ -4,7 +4,7 @@
 
 ## Solution :
 
-Query made - 
+Query made --
 
 ```sql
 SELECT * FROM someTable WHERE category = '<CATEGORY>'
