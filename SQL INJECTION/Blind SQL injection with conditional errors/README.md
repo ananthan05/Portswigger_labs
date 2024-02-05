@@ -27,7 +27,7 @@ Add 2 extra `'` symbol.We get a response that shows the SQL syntax is right
 
 ![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/042cb032-0ea4-4984-9707-f9a6f1eb88ca)
 
-#### Checking database with conditional errors  -
+#### Checking database with conditional errors  --
 
 ```sql
 SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>''||(SELECT '')||'
