@@ -4,6 +4,12 @@
 
 ## Solution :
 
+Query made--
+
+```sql
+SELECT * FROM someTable WHERE category = '<CATEGORY>'
+```
+
 Because both columns store text data, we can retrieve both the username and password from the users table without needing any additional concatenation method.
 
 ```sql
