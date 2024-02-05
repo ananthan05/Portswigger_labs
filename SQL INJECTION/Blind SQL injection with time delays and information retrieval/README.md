@@ -1,4 +1,4 @@
-![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/19a2442a-9838-41eb-be66-b52cda03fca2)## Lab Description :
+## Lab Description :
 
 ![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/906132fb-aaaa-40a2-8bae-549e655fd736)
 
