@@ -10,6 +10,11 @@ This is the homepage url.
 
 Now we need to bypass this page and directly access the admin page.
 
+For that we tried accessing it using `/admin` but not worked.
+
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/34bcc7c7-0635-4e41-80af-8bd0ebda8f65)
+
+ 
 For that we can look for one of the common web directories like the robots.txt and sitemap.xml
 
 by appending `/robots.txt` to the lab URL. Notice that the Disallow line discloses the path to the admin panel.
