@@ -8,7 +8,7 @@ Log in using the supplied credentials and access your account page.
 
 ![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/414d9203-c844-4cbf-8aed-b2a42f786cf5)
 
-And rovided feature to update the email address associated with your account
+And provided feature to update the email address associated with your account
 
 ![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/7fdf5293-05b0-4b44-aec1-12daab9f3b17)
 
