@@ -12,7 +12,7 @@ And provided feature to update the email address associated with your account
 
 ![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/7fdf5293-05b0-4b44-aec1-12daab9f3b17)
 
-Observe that the response contains your role ID.ie is the `post request` 
+Observe that the response contains your role ID.ie in the `post request` 
 
 ![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/1d948e21-3d8b-4ddd-96c5-968f926e6e40)
 
