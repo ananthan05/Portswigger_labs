@@ -41,7 +41,7 @@ Now it changes to a GET request-
 
 ![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/362d0107-a43c-4e7f-9be5-5b079d528f2f)
 
-Lab solved. wiene become an admin.
+Lab solved. wiener become an admin.
 
 ![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/57ba573e-7cc6-48ef-82a3-9d06832780c2)
 
