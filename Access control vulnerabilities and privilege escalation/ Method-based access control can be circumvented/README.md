@@ -12,7 +12,7 @@ Browse to the admin panel, promote carlos, and send the HTTP request to Burp Rep
 
 ![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/74c60bbc-4054-4af0-9b0f-9a43bd4e75a1)
 
-capture the request and send it top repeater .
+capture the request and send it to repeater .
 
 ![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/85af491a-5161-4bd7-8061-0f8dd63583b8)
 
