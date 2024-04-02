@@ -47,5 +47,6 @@ The same result can be achieved by injecting anthor payload.
 ```js
 "><svg onload=alert(1)>
 ```
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/51d3f80c-2e41-456f-9d80-17a040d8467d)
 
 
