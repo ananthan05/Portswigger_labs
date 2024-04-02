@@ -34,7 +34,7 @@ Break out of the img attribute by searching
 
 it trigger an alert.
 
-![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/1c039c75-4152-4f4c-a222-d67910ea07b9)
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/92e0e3b1-a4cf-4208-9f8b-d7e252c45790)
 
 Lab Solved.
 
