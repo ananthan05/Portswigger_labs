@@ -18,7 +18,7 @@ HTML looks like this-
 
 > I can not directly add some JavaScript in the text of the option tag. But I can complete the tags and put script content outside of the scope of the option.
 
- Payload to script content outside 
+ Payload to script to get the  content outside 
 
 ```
 &storeId=Paris</option>we can script here 
