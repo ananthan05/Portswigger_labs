@@ -36,3 +36,17 @@ Now we will make out payload by `-alert()` instead of `man` we are using `-` bec
 ```js
 \"-alert(1)}//
 ```
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/3fc3824a-902f-45e4-9b82-12f80e5f79f8)
+
+> As you have injected a backslash and the site isn't escaping them, when the JSON response attempts to escape the opening double-quotes character, it adds a second backslash. The resulting double-backslash causes the escaping to be effectively canceled out. This means that the double-quotes are processed unescaped, which closes the string that should contain the search term.
+
+> An arithmetic operator (in this case the subtraction operator) is then used to separate the expressions before the alert() function is called. Finally, a closing curly bracket and two forward slashes close the JSON object early and comment out what would have been the rest of the object
+
+Now go and search the payload and it will trigger an alert!.
+
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/9819b165-8d38-48ca-a29e-a02eeb51dde8)
+
+Lab solved.
+
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/bad87e9c-355e-4f1e-9f49-354d59b4d8a4)
+
