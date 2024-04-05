@@ -31,7 +31,7 @@ first tried broke out java string using `\"`.The `man` was shown outside the str
 
 Payload-
 
-Now we will make out payload by `-alert()` instead of `man` we are using `-` because `+` used for url encoding.
+Now we will make out payload by `-alert()` instead of `man` we are using `-` because `+` usually url encoded.
 
 ```js
 \"-alert(1)}//
