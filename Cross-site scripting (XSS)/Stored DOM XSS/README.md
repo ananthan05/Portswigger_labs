@@ -20,6 +20,11 @@ alert did not came.
 
 ![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/a0ddb494-6010-484b-adad-d4dbfcb62407)
 
+HTML code -
+
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/6c33610b-9962-4de7-bbea-8f4d01736804)
+
+
 >The comments are not sent by the server directly with the response, but dynamically loaded and displayed via JavaScript:
 
 ![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/93047ba5-3ffb-4c8c-8393-61f3d3232b7a)
@@ -29,6 +34,8 @@ So the natural next step is to check that JavaScript. Some things become obvious
 The content of the elements are added as `innerHTML`, which is vulnerable to injections (innerText would be better here)
 
 ![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/a10a29a7-882c-4bd2-a420-309c0ae0e817)
+
+we need come out of the `<p> script </p>`. for that we will use `<>` how out of that our scrpit will have this in front.
 
 Payload.
 
