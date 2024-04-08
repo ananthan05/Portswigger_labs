@@ -90,9 +90,29 @@ now our injected code will not break javascript for that we need to match `‘}`
 
 so the final payload will be
 
+## Payload
+
 ```js
 &'},f=x=>{throw/**/onerror=alert,1337},toString=f,window+'',{x:'
 ```
+
+#### An Arrow Function
+
+```js
+x=x=>{onerror=alert; throw 1337}
+```
+> Definition
+ This will create a new arrow function and assign it to `x`. Since there is no variable declaration, `x` will be an implicit global and thus attached to `window`.
+This isn’t extremely useful, it’s likely done to save a few characters. The function also takes a single parameter called `x` but does nothing with it. Again, nothing useful, saves up a single character, otherwise it needs to be defined as `()=>.`
+
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/08f5306f-4dac-47b5-9c7e-843ec6a7d923)
+
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/ff1298ba-643f-42c1-8aa6-3b319102ea2b)
+
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/20970cdd-fa02-45aa-a7e5-45e9fa56d998)
+
+
+Now let us give the payload.
 
 ![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/f5c350de-840d-415a-90e6-eeae47fcb799)
 
