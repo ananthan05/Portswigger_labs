@@ -62,4 +62,6 @@ To verify if the exploit will work, try it on yourself by clicking "View exploit
 
  "Deliver to victim" to solve the lab.
 
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/dbf34b91-597e-4c24-a408-5c8169f00118)
+
  
