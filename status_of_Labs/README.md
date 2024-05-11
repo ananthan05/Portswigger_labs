@@ -1,3 +1,10 @@
+# Learning progress
+
+108 Lab Completed
+
+![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/ffab293c-cd29-4b42-b60b-4ad7262313c9)
+
+
 ## SQL injection
 
 ![image](https://github.com/ananthan05/Portswigger_labs/assets/140697378/08c64c9b-809e-4e15-9c3a-99861458baf2)
